@@ -5,8 +5,17 @@ import android.content.DialogInterface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+
+import butterknife.Bind;
 
 public class MainActivity extends AppCompatActivity{
+
+    @Bind(R.id.name) EditText name;
+    @Bind(R.id.lastName) EditText lastName;
+    @Bind(R.id.desayuno) EditText desatuno;
+    @Bind(R.id.comida) EditText comida;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
