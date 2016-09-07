@@ -68,7 +68,7 @@
         android:layout_marginTop="60dp"
         android:layout_alignRight="@+id/button"
         android:layout_alignEnd="@+id/button"
-        android:hint="Escriba la descripcion del platillo que se entregara en el desayuno" />
+        android:hint="Escriba la descripcion del platillo que se entregara en el comida" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -80,4 +80,5 @@
         android:layout_alignRight="@+id/comida"
         android:layout_alignEnd="@+id/comida"
         android:theme="@style/MiBotonRaised" />
+
 </RelativeLayout>
